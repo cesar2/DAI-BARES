@@ -1,3 +1,6 @@
+apt-xapian-index==0.45
+chardet==2.0.1
+colorama==0.2.5
 Django==1.7
 django-appconf==1.0.1
 django-bootstrap-toolkit==2.15.0
