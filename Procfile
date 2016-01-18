@@ -1,1 +1,1 @@
-gunicorn ejemeplo.wsgi --log-file -
+web: gunicorn ejemeplo.wsgi --log-file -
