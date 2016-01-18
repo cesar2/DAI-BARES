@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% load easy_maps_tags %}
+{% block title %}{{ bar_name }}{% endblock %}
+{% block body_block %}
+
+	{% if bar %}
+        <h1>{{ bar_name }} <FONT SIZE=-1> ( {{bar.visits }} visitas ) </FONT></h1> 
+		<div align="center">
+			<h4> Dirección: {{ bar.address }} . <h4>
+			{% easy_map  bar.address 550 200 %}	
+		</div>
+		{% if user.is_authenticated %}
+			<a href="/rango/add_tapa/{{ bar.slug }}">Añadir tapa </a>
+		{% endif %} 
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		
+		<div align="left">
+			{% if tapas %}
+				<h2> Tapas disponibles: </h2>
+				<ul>
+				{% for tapa in tapas %}
+					<li><a href="/static/images/{{tapa.name2}}.jpg""> {{ tapa.name2 }}  </a>  - Votos : {{tapa.votos }}</li>
+					<button onclick="window.location.href='/rango/me_gusta/{{ tapa.name2 }}'" class="btn btn-default btn-xs" background-color:#ff00ff action=> Me gusta</button> 
+					<img src="{{tapa.url}}" alt="Foto de la tapa" width='200' height='150' />
+				{% endfor %}
+				</ul>
+							
+			{% else %}
+					<strong>No hay tapas!! :( </strong>
+			{% endif %}
+		</div>
+		
+	{% else %}
+		El bar {{ bar_name }} no existe en Granada!
+	{% endif %}
+		
+	
+ 
+    
+{% endblock %}
+
+   
+        
