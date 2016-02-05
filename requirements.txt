@@ -1,1 +1,4 @@
 Django==1.7
+django-appconf==1.0.1
+django-classy-tags==0.6.2
+
