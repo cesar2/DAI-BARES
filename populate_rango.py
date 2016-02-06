@@ -13,21 +13,21 @@ def populate():
 
 	buho_bar = add_bar2('Bar del búho', 'Calle Doctor Pareja Yébenes 10')
 	
-	add_tapa(bar=buho_bar,name2="Tortilla",votos=1, url="http://recetatortilladepatatas.net/wp-content/uploads/2014/11/ingredientes-tortilla-de-patatas.jpg")
-	add_tapa(bar=buho_bar,name2="Hamburguesa",votos=5, url="http://pizzerialaestacion.com/wp-content/uploads/2014/03/big_3380c-amburguesa.jpg")
-	add_tapa(bar=buho_bar,name2="Burrito",votos=8, url="http://www.lasirena.es/images/cache/files/product/platos-preparados/2781-Burrito-Mexicano-carne500x500.jpg")
+	add_tapa(bar=buho_bar,name2="Carne",votos=1, url="http://i1155.photobucket.com/albums/p543/cesypozo/tapas/70cf9ac0-0360-413c-a562-ba5f56871765_zpsznocwbho.jpg")
+	add_tapa(bar=buho_bar,name2="Hamburguesa",votos=5, url="http://i1155.photobucket.com/albums/p543/cesypozo/tapas/20151213_161105_zpspzataukb.jpg")
+	add_tapa(bar=buho_bar,name2="Sushi",votos=8, url="http://i1155.photobucket.com/albums/p543/cesypozo/tapas/20160206_150655_zpsmam17l53.jpg")
 		
 	charlotte_bar = add_bar2('Bar Charlotte', 'Calle Pedro Antonio De Alarcón , Granada')
 	
-	add_tapa(bar=charlotte_bar,name2="Rejos",votos=9, url="http://farm4.static.flickr.com/3192/2757106117_d051679d4f.jpg?v=0")
-	add_tapa(bar=charlotte_bar,name2="Calamares",votos=120, url="https://recetassaboresypasiones.files.wordpress.com/2014/10/calamares-a-la-romana.jpg")
-	add_tapa(bar=charlotte_bar,name2="Chopitos",votos=33, url="http://chefalpaso.com/wp-content/uploads/2011/03/chopitos-Chef-al-paso.jpg")
+	add_tapa(bar=charlotte_bar,name2="Rejos",votos=9, url="http://i1155.photobucket.com/albums/p543/cesypozo/tapas/IMG-20160104-WA0023_zpss7t5wx3o.jpg")
+	add_tapa(bar=charlotte_bar,name2="Cheedar",votos=120, url="http://i1155.photobucket.com/albums/p543/cesypozo/tapas/20151213_154739_zpsz5zc3jo0.jpg")
+	add_tapa(bar=charlotte_bar,name2="Almejas",votos=33, url="http://i1155.photobucket.com/albums/p543/cesypozo/tapas/20151007_221038_zpsr4vv7nfa.jpg")
 		
 	peruano_bar = add_bar2("Peruano", 'Calle Severo Ochoa , Granada ')
 
-	add_tapa(bar=peruano_bar,name2="Pizza",votos=450, url="http://i.imgur.com/yS3TV.jpg")
-	add_tapa(bar=peruano_bar,name2="Pinchito",votos=2, url="http://www.decaminoamicocina.com/wp-content/uploads/2012/07/pinchitos-morunos.jpg")
-	add_tapa(bar=peruano_bar,name2="Serranito", votos=28, url="http://i.blogs.es/0c9744/serranito-20bocadillo-20del-20sur/original.jpg")
+	add_tapa(bar=peruano_bar,name2="Pollo",votos=450, url="http://i1155.photobucket.com/albums/p543/cesypozo/tapas/20151213_153956_zpsomww2aah.jpg")
+	add_tapa(bar=peruano_bar,name2="Careta",votos=2, url="http://i1155.photobucket.com/albums/p543/cesypozo/tapas/20150729_200654_zps00wzxrsq.jpg")
+	add_tapa(bar=peruano_bar,name2="Serranito", votos=28, url="http://i1155.photobucket.com/albums/p543/cesypozo/tapas/IMG-20160108-WA0047_zpswouhn3to.jpeg")
 
     # Print out what we have added to the user.
 	for b in Bar.objects.all():
