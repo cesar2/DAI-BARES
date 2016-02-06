@@ -104,7 +104,7 @@ He escogido [travis](https://travis-ci.org/) para realizar esta tarea, ya que me
 [Más información](https://github.com/cesar2/Proyecto-IV/blob/master/Documentacion/Integracion.md)
 
 
-### Despliegue en un PaaS: [Heroku](https://www.heroku.com/)
+#Despliegue en un PaaS: [Heroku](https://www.heroku.com/)
 
 Me he decantado por Heroku, ya que es sencillo y funciona muy bien. Se puede empezar desde 0 sin muchas
 complicaciones. Debemos añadir los siguientes archicos a nuestro directorio donde está nuestra aplicación:
@@ -115,7 +115,7 @@ Aquí está el enlace a mi [aplicación en Heroku](https://dry-thicket-6813.hero
 
 
 
-### Entorno de pruebas: [Docker](https://www.docker.com/)
+#Entorno de pruebas: [Docker](https://www.docker.com/)
 
 El entorno de pruebas que vamos a utilizar es Docker. Con esta plataforma podemos automatizar el despliege de las aplicaciones
 en un contenedor software para poder probarla de manera aislada y poder desplegarla más rápidamente después.
@@ -127,6 +127,16 @@ Para crear el entorno de pruebas, se debe ejecutar el comando:
 `make docker`
 
 [Más información](https://github.com/cesar2/Proyecto-IV/blob/master/Documentacion/Docker.md)
+
+
+#Despliegue en un Iaas: [Azure](https://azure.microsoft.com/es-es/)
+
+
+
+
+
+
+
 
 Inscripción al certamen:
 
