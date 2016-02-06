@@ -1,8 +1,7 @@
-### Aplicación de Bares y Tapas
+# Aplicación de Bares y Tapas
+## Autor: César Albusac Jorge
 Aplicación realizada para la asignatura de DAI e IV con Django.
 
-# Proyecto-IV. Gestión de Hospitales
-## Autor: César Albusac Jorge
 
 [![Build Status](https://travis-ci.org/cesar2/Proyecto-IV.svg?branch=master)](https://travis-ci.org/cesar2/Proyecto-IV)
 
@@ -14,18 +13,39 @@ Este proyecto lo voy a realizar junto a la aplicación de DAI, aprovechando el t
 
 
 #Descripción
-A priori, la aplicación consiste en una aplicación web, que, usando un framework de Python y una base de datos MongoDB, será capaz de realizar operaciones con formularios, uso de plantillas con Mako, manejo de sesiones con 
-la clase Sessions de web.py, obtención de información mediante RSS, realización de gráficos ( Highcharts ),
-operaciones con Google Maps, operaciones con Twitter, entre otros.
-
-Aún no sé con certeza como será a ciencia cierta, por lo que podría cambiar ligeramente respecto al año pasado.
+La aplicación consiste en una aplicación web sobre bares y tapas que está realizada con Djando.
+Será capaz de realizar operaciones con formularios, permitiendo añadir bares, tapas y usuarios.
+Haremos uso de plantillas con Mako, manejo de sesiones, realización de gráficos ( Highcharts ),
+operaciones con Google Maps, entre otros.
 
 #Componentes de la aplicación
 
-La aplicación está formada, de momento, por un archivo principal llamado [hospital.py](https://github.com/cesar2/Proyecto-IV/blob/master/ej3.py), que es el que realiza las funciones principales.
+La aplicación está formada por diferentes carpetas y archivos en los que se guardan las configuraciones y los
+archivos html que se servirán en la aplicación.
 
-Se trata de una aplicación que devuelve diferentes htmls e imágenes según la ruta que se le pase en el 
-navegador, así como manejador de errores.
+Dentro de la carpeta de la aplicación, tendremos los siguientes archivos:
+
+Para el majero de urls lo hacemos en los archivos tenemos [urls.py](https://github.com/cesar2/DAI-BARES/blob/master/rango/urls.py).
+Los diferentes formularios que utilizaré están en [forms.py](https://github.com/cesar2/DAI-BARES/blob/master/rango/forms.py)
+Las vistas que serviremos estarán en [views.py](https://github.com/cesar2/DAI-BARES/blob/master/rango/views.py)
+Los diferentes modelos(en mi caso, Tapa y Bar) , estarán en [models.py](https://github.com/cesar2/DAI-BARES/blob/master/rango/models.py)
+
+Dentro de la carpeta **templates**, tendremos las diferentes páginas html que vamos a servir.
+En [templates/rango/](https://github.com/cesar2/DAI-BARES/tree/master/templates/rango), tenemos los diferentes htmls para las 
+diferentes funcionalidades como añadir tapa o bares, página de inicio, página del bar, registrarse, loguearse, etc.
+
+Estos htmls heredan de [base.html](https://github.com/cesar2/DAI-BARES/blob/master/templates/base.html), y en él están los archivos
+de estilos. Los arhivos que heredan del mismo son: 
+
+[add_bar.html](https://github.com/cesar2/DAI-BARES/blob/master/templates/rango/add_bar.html)
+[add_tapa.html](https://github.com/cesar2/DAI-BARES/blob/master/templates/rango/add_bar.html)
+[bar.html](https://github.com/cesar2/DAI-BARES/blob/master/templates/rango/bar.html)
+[estadisticas.html](https://github.com/cesar2/DAI-BARES/blob/master/templates/rango/estadisticas.html)
+[index.html](https://github.com/cesar2/DAI-BARES/blob/master/templates/rango/index.html)
+[login.html](https://github.com/cesar2/DAI-BARES/blob/master/templates/rango/login.html)
+[register.html](https://github.com/cesar2/DAI-BARES/blob/master/templates/rango/register.html)
+[about.html](https://github.com/cesar2/DAI-BARES/blob/master/templates/rango/about.html) y mostrar estadísticas.
+
 
 En la carpeta [epydoc](https://github.com/cesar2/Proyecto-IV/tree/master/epydoc) se encuentra todo lo 
 relacionado con la documentación de la aplicación. [Aquí](https://github.com/cesar2/IV/blob/master/Ejercicios_tema2.md#ejercicio-5) podemos ver como he realizado
