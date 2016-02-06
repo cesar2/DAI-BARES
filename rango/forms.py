@@ -12,7 +12,7 @@ class UserForm(forms.ModelForm):
 class UserProfileForm(forms.ModelForm):
     class Meta:
         model = UserProfile
-        fields = ('website', 'picture')
+        fields = ('website',)
 		
 class BarForm(forms.ModelForm):
 	name = forms.CharField(max_length=128, help_text="Por favor introduce el nombre del bar.")
