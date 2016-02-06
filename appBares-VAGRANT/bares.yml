@@ -1,0 +1,25 @@
+- hosts: localhost
+  sudo: yes
+  remote_user: vagrant
+  tasks:
+  - name: Actualizar sistema 
+    apt: update_cache=yes upgrade=dist
+  - name: Instalamos postgresql
+    command: easy_install pip
+    command: apt-get install -y python-dev libpq-dev python-psycopg2    
+  - name: Instalar paquetes
+    apt: name=python-setuptools state=present
+    apt: name=build-essential state=present
+    apt: name=python-dev state=present
+    apt: name=python-pip state=present
+    apt: name=git state=present
+  - name: Ins Pyp
+    action: apt pkg=python-pip
+  - name: Obtener aplicacion git
+    git: repo=https://github.com/cesar2/DAI-BARES.git  dest=appBares clone=yes force=yes
+  - name: Permisos de ejecucion
+    command: chmod -R +x appBares
+  - name: Instalar requirements
+    command: sudo pip install -r appBares/requirements.txt
+  - name: Lanzar app
+    command: nohup sudo python appBares/manage.py runserver 0.0.0.0:80
