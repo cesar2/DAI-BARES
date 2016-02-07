@@ -6,7 +6,7 @@ Aplicación realizada para la asignatura de DAI e IV con Django.
 
 [![Build Status](https://snap-ci.com/cesar2/DAI-BARES/branch/master/build_image)](https://snap-ci.com/cesar2/DAI-BARES/branch/master)
 
-[![Heroku](https://www.herokucdn.com/deploy/button.png)](https://dry-thicket-6813.herokuapp.com/)
+[![Heroku](https://www.herokucdn.com/deploy/button.png)](http://app-bares-cesar.herokuapp.com/rango/)
 
 [![Azure](http://azuredeploy.net/deploybutton.png)](http://cesar-service-jskdg.cloudapp.net/rango/) 
 
