@@ -85,7 +85,8 @@ Y si quitásemos la imagen de /bicis , para comprobar si nos saldría el error:
 
 ![test_terminal_error](http://i1175.photobucket.com/albums/r629/Cesar_Albusac_Jorge/PracticayEjercicios2/test_fallo_zpsxv0pi6a7.png)
 
-Así , con la orden **python test.py** podemos ejectuar todos los test que queramos automáticamente, siempre que estén en su formato correcto dentro del archivo test.py( o como queramos llamarlo), como hemos visto anteriormente.
+
+Para ejecutar los test ```python manage.py test```
 
 # Herramienta de construcción
 Los tests que he realizado los he integrado dentro de las herramientas de construcción, incluyendo un objetivo make test en el achivo [makefile](https://github.com/cesar2/Proyecto-IV/blob/master/makefile).
@@ -133,7 +134,7 @@ Para crear el entorno de pruebas, se debe ejecutar el comando:
 
 Para esta taera he usado Azure. La manera de desplegar con una sóla orden la aplicación es ejecutando
 el script [azure.sh](https://github.com/cesar2/DAI-BARES/blob/master/script-Azure/azure.sh) , que se encuentra en la carpeta script-Azure.
-Así, ejecutaremos ```sh azure.sh``` en el direcotorio que deseemos.El contenido del script es :
+Así, ejecutaremos ```./azure.sh``` en el direcotorio que deseemos.El contenido del script es :
 ```
 #!/bin/bash
 git clone https://github.com/cesar2/DAI-BARES.git
