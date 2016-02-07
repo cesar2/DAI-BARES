@@ -150,7 +150,7 @@ Luego , añadimos permisos al script [lanzar_app.sh](https://github.com/cesar2/D
 Y finalmente, lo ejecutamos.
 
 
-La url de mi aplicación es : **http://cesar-service-jskdg.cloudapp.net/rango/** :
+La url de mi aplicación es : **http://cesar-service-hxtco.cloudapp.net/rango/** :
 
 ![funcionando](http://i1155.photobucket.com/albums/p543/cesypozo/Ejercicios%20tema%206/Captura%20de%20pantalla%20de%202016-02-07%20175745_zps9rgvyfxe.png)
 
