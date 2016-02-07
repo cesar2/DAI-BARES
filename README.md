@@ -5,6 +5,8 @@ Aplicación realizada para la asignatura de DAI e IV con Django.
 
 [![Build Status](https://travis-ci.org/cesar2/Proyecto-IV.svg?branch=master)](https://travis-ci.org/cesar2/Proyecto-IV)
 
+[![Build Status](https://travis-ci.org/cesar2/DAI-BARES.svg?branch=master)](https://travis-ci.org/cesar2/DAI-BARES)
+
 [![Build Status](https://snap-ci.com/cesar2/Proyecto-IV/branch/master/build_image)](https://snap-ci.com/cesar2/Proyecto-IV/branch/master)
 
 [![Heroku](https://www.herokucdn.com/deploy/button.png)](https://dry-thicket-6813.herokuapp.com/)
