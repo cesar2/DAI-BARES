@@ -8,7 +8,7 @@ Aplicación realizada para la asignatura de DAI e IV con Django.
 
 [![Heroku](https://www.herokucdn.com/deploy/button.png)](http://app-bares-cesar.herokuapp.com/rango/)
 
-[![Azure](http://azuredeploy.net/deploybutton.png)](http://cesar-service-jskdg.cloudapp.net/rango/) 
+[![Azure](http://azuredeploy.net/deploybutton.png)](http://cesar-service-hxtco.cloudapp.net/rango/) 
 
 
 
