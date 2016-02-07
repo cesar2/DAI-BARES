@@ -47,17 +47,17 @@ de estilos. Los arhivos que heredan del mismo son:
 [about.html](https://github.com/cesar2/DAI-BARES/blob/master/templates/rango/about.html) y mostrar estadísticas.
 
 
+En la versión anterior de este proyecto:
 En la carpeta [epydoc](https://github.com/cesar2/Proyecto-IV/tree/master/epydoc) se encuentra todo lo 
 relacionado con la documentación de la aplicación. [Aquí](https://github.com/cesar2/IV/blob/master/Ejercicios_tema2.md#ejercicio-5) podemos ver como he realizado
 la descripción y la instalación del mismo.
-
 La carpeta [static](https://github.com/cesar2/Proyecto-IV/tree/master/static).
 En epydoc está todo lo referente a la documentación.
 En static se encuentran las imágenes y los archivos que serán estáticos, como los .css.
 
 
 #Requerimientos:
-En el archivo [requirements.txt](https://github.com/cesar2/Proyecto-IV/blob/master/requirements.txt) está especificado cuáles son las versiones de las diferentes herramientas que hemos usado para ejecutar la aplicación.
+En el archivo [requirements.txt](https://github.com/cesar2/DAI-BARES/blob/master/requirements.txt) está especificado cuáles son las versiones de las diferentes herramientas que hemos usado para ejecutar la aplicación.
 En el siguiente [enlace](https://github.com/cesar2/IV/blob/master/Ejercicios_tema2.md#ejercicio-4) describo cómo
 ha de crearse el archivo requirements.txt. Para ejecutarlo(como veremos en .travis.yml), hay que escribir
 $ pip install -r requirements.txt
@@ -85,7 +85,7 @@ Y si quitásemos la imagen de /bicis , para comprobar si nos saldría el error:
 
 ![test_terminal_error](http://i1175.photobucket.com/albums/r629/Cesar_Albusac_Jorge/PracticayEjercicios2/test_fallo_zpsxv0pi6a7.png)
 
-Así , con la orde **python test.py** podemos ejectuar todos los test que queramos automáticamente, siempre que estén en su formato correcto dentro del archivo test.py( o como queramos llamarlo), como hemos visto anteriormente.
+Así , con la orden **python test.py** podemos ejectuar todos los test que queramos automáticamente, siempre que estén en su formato correcto dentro del archivo test.py( o como queramos llamarlo), como hemos visto anteriormente.
 
 # Herramienta de construcción
 Los tests que he realizado los he integrado dentro de las herramientas de construcción, incluyendo un objetivo make test en el achivo [makefile](https://github.com/cesar2/Proyecto-IV/blob/master/makefile).
@@ -101,7 +101,7 @@ de nuevo los test y nos muestre que todo ha funcionado correctamente.
 
 He escogido [travis](https://travis-ci.org/) para realizar esta tarea, ya que me ha parecido sencillo y completo.
 
-[Más información](https://github.com/cesar2/Proyecto-IV/blob/master/Documentacion/Integracion.md)
+[Más información](https://github.com/cesar2/DAI-BARES/blob/master/Documentacion/Integracion.md)
 
 
 #Despliegue en un PaaS: [Heroku](https://www.heroku.com/)
@@ -109,9 +109,9 @@ He escogido [travis](https://travis-ci.org/) para realizar esta tarea, ya que me
 Me he decantado por Heroku, ya que es sencillo y funciona muy bien. Se puede empezar desde 0 sin muchas
 complicaciones. Debemos añadir los siguientes archicos a nuestro directorio donde está nuestra aplicación:
 
-Aquí está el enlace a mi [aplicación en Heroku](https://dry-thicket-6813.herokuapp.com/).
+Aquí está el enlace a mi [aplicación en Heroku](http://app-bares-cesar.herokuapp.com/rango/).
 
-[Más información](https://github.com/cesar2/Proyecto-IV/blob/master/Documentacion/Heroku.md)
+[Más información](https://github.com/cesar2/DAI-BARES/blob/master/Documentacion/Heroku.md)
 
 
 
@@ -126,7 +126,7 @@ Para crear el entorno de pruebas, se debe ejecutar el comando:
 
 `make docker`
 
-[Más información](https://github.com/cesar2/Proyecto-IV/blob/master/Documentacion/Docker.md)
+[Más información](https://github.com/cesar2/DAI-BARES/blob/master/Documentacion/Docker.md)
 
 
 #Despliegue en un Iaas: [Azure](https://azure.microsoft.com/es-es/)
