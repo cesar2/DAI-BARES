@@ -12,14 +12,15 @@ Aplicación realizada para la asignatura de DAI e IV con Django.
 [![Azure](http://azuredeploy.net/deploybutton.png)](http://cesar-service-jskdg.cloudapp.net/rango/) 
 
 
+
 #Descripción
 La aplicación consiste en una aplicación web sobre bares y tapas que está realizada con Djando.
 Será capaz de realizar operaciones con formularios, permitiendo añadir bares, tapas y usuarios.
 Haremos uso de plantillas con Mako, manejo de sesiones, realización de gráficos ( Highcharts ),
 operaciones con Google Maps, entre otros.
 
-#Componentes de la aplicación
 
+#Componentes de la aplicación
 La aplicación está formada por diferentes carpetas y archivos en los que se guardan las configuraciones y los
 archivos html que se servirán en la aplicación.
 
