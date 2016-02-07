@@ -153,10 +153,7 @@ La url de mi aplicación es : **http://cesar-service-jskdg.cloudapp.net/rango/**
 
 ![funcionando](http://i1155.photobucket.com/albums/p543/cesypozo/Ejercicios%20tema%206/Captura%20de%20pantalla%20de%202016-02-07%20175745_zps9rgvyfxe.png)
 
-
-
-
-
+[Más información](https://github.com/cesar2/DAI-BARES/blob/master/Documentacion/Azure.md)
 
 
 Inscripción al certamen:
