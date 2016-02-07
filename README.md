@@ -131,6 +131,27 @@ Para crear el entorno de pruebas, se debe ejecutar el comando:
 
 #Despliegue en un Iaas: [Azure](https://azure.microsoft.com/es-es/)
 
+Para esta taera he usado Azure. La manera de desplegar con una sóla orden la aplicación es ejecutando
+el script [azure.sh](https://github.com/cesar2/DAI-BARES/blob/master/script-Azure/azure.sh) , que se encuentra en la carpeta script-Azure.
+Así, ejecutaremos ```sh azure.sh``` en el direcotorio que deseemos.El contenido del script es :
+```
+#!/bin/bash
+git clone https://github.com/cesar2/DAI-BARES.git
+cd DAI-BARES/appBares-VAGRANT/
+chmod 777 lanzar_app.sh
+./lanzar_app.sh
+```
+
+Con git clone, clonamos el repositorio de la aplicación al directorio en el que ejecutemos el comando.
+Con la siguiente orde, accedemos al directorio donde se encuentran los archivos correspondientes pera realizar el 
+depliegue correctamente([Vagrantfile](https://github.com/cesar2/DAI-BARES/blob/master/appBares-VAGRANT/Vagrantfile), [ansible_hosts](https://github.com/cesar2/DAI-BARES/blob/master/appBares-VAGRANT/ansible_hosts) y [bares.yml](https://github.com/cesar2/DAI-BARES/blob/master/appBares-VAGRANT/bares.yml)).
+Luego , añadimos permisos al script [lanzar_app.sh](https://github.com/cesar2/DAI-BARES/blob/master/appBares-VAGRANT/lanzar_app.sh)
+Y finalmente, lo ejecutamos.
+
+
+La url de mi aplicación es : **http://cesar-service-jskdg.cloudapp.net/rango/** :
+
+![funcionando](http://i1155.photobucket.com/albums/p543/cesypozo/Ejercicios%20tema%206/Captura%20de%20pantalla%20de%202016-02-07%20175745_zps9rgvyfxe.png)
 
 
 
