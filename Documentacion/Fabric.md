@@ -54,6 +54,8 @@ al SSH que tiene que hacer):
 ```
 fab -H cesar@cesar-service-jskdg.cloudapp.net install_run
 ```
+
+![fabric2](http://i1155.photobucket.com/albums/p543/cesypozo/Ejercicios%20tema%206/fabric2_zpshp1kahx9.png)
 Con la opcion [-H] se le indica el host, puede usarse la opcion -p para pasarle la password sino se desea más tarde:
 
 ```
