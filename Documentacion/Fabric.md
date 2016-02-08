@@ -62,6 +62,19 @@ Con la opcion [-H] se le indica el host, puede usarse la opcion -p para pasarle 
 fab -p **contraseña** -H cesar2@cesar-service-jskdg.cloudapp.net install_run
 ```
 
+Con estas funciones hago distintas cosas como explica el comentario que precede a cada una de ellas, una vez definido este archivo podremos llevar a cabo cualquiera de estas funciones mediante la herramienta de línea de comandos de Fabric:
+
+```
+fab -p contraseña -H cesar2@cesar-service-jskdg.cloudapp.net funcionAejecutar
+```
+
+En mi caso por ejemplo si ejecuto el siguiente comando:
+
+```
+dab -p myPassword -H cesar2@cesar-service-jskdg.cloudapp.net test
+```
+
+
 ### Despligue Docker en Azure
 
 
