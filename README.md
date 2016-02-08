@@ -129,6 +129,18 @@ Para crear el entorno de pruebas, se debe ejecutar el comando:
 
 [Más información](https://github.com/cesar2/DAI-BARES/blob/master/Documentacion/Docker.md)
 
+#Despliegue remoto: Fabric
+
+Fabric nos ayuda a  automatizar las tareas de administración mediante SSH.
+He creado un entorno de pruebas en una máquina virtual de Azure.
+
+Mi archivo fabric puede verse [aquí](https://github.com/cesar2/DAI-BARES/blob/master/fabfile.py).
+
+La creación del entorno Docker en Azure usando el archivo fabfile puede consultarse aqui.
+
+[Más información](https://github.com/cesar2/DAI-BARES/blob/master/Documentacion/Fabric.md)
+
+
 
 #Despliegue en un Iaas: [Azure](https://azure.microsoft.com/es-es/)
 
