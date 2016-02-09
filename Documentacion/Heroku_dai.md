@@ -49,10 +49,17 @@ whitenoise==2.0.4
 ```
 
 Tenemos que hacer los siguientes pasos:
+1. Clonamos el repositorio que deseamos desplegar:
 
 ![heroku1](http://i1155.photobucket.com/albums/p543/cesypozo/Ejercicios%20tema%206/Captura%20de%20pantalla%20de%202016-01-19%20183648_zpsnfauslmv.png)
-![heroku2](http://i1155.photobucket.com/albums/p543/cesypozo/Ejercicios%20tema%206/Captura%20de%20pantalla%20de%202016-01-19%20183728_zpshph7w1fu.png)
+
+2. Ahora, creamos en heroku la aplicación , con ```heroku create <nombre_de_la_aplicacion>```:
 ![heroku3](http://i1155.photobucket.com/albums/p543/cesypozo/Ejercicios%20tema%206/Captura%20de%20pantalla%20de%202016-01-19%20183712_zpsodc8qli1.png)
+
+3. A continuación, ejecutamos ```git push heroku master``` para subir la aplicación:
+![heroku2](http://i1155.photobucket.com/albums/p543/cesypozo/Ejercicios%20tema%206/Captura%20de%20pantalla%20de%202016-01-19%20183728_zpshph7w1fu.png)
+
+4. Abrimos la aplicación con ```heroku open```:
 ![heroku4](http://i1155.photobucket.com/albums/p543/cesypozo/Ejercicios%20tema%206/Captura%20de%20pantalla%20de%202016-01-19%20183812_zpsz46gaou6.png)
 
 Esta es la aplicación ya desplegada en Heroku: [http://app-bares-cesar.herokuapp.com/rango/](http://app-bares-cesar.herokuapp.com/rango/)
